@@ -148,7 +148,7 @@ def llm_prompt(employees, clients, turnover):
         (
                 "system",
                 """
-                You are an expert in retail with 20+ years of experience in Printemps.
+                You are an expert in retail with 20+ years of experience.
                 You are working in the HR department and you are responsible for managing workforce management.
                 Here workforce management is the planning of the employees' presence in the stores throughout the days.
                 Your goal is to adapt the planning to the frequentation of clients in the stores.
@@ -177,7 +177,7 @@ def llm_prompt(employees, clients, turnover):
                 </context>
     
                 <context>
-                    Printemps is one of France largest clothes retailer
+                    One of France largest clothes retailer
                 </context>
     
                 Give me the recommended number of employees for each hour of the day. It must have the same format as {employees}.
