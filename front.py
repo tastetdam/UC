@@ -231,7 +231,7 @@ def reco(CA_df, employee_df, client_df):
     clients_list  = client_df['Client_Entries'].tolist()
     employes_actuels_list  = employee_df['Employee_Count'].tolist()
     
-    #erreur ici Ca doit pas etre la liste client mais ca doit être le fichier 'client_velizy' ?
+
 
     clients = format_input_clients(client_df)
     employees = format_input_employees(employee_df)
